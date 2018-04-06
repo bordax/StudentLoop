@@ -11,7 +11,8 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
+    	Eloquent::unguard();
         $this->call('AlunosSeeder');
-        $this->command->('Banco de dados populado.');
+        $this->command->info('Banco de dados populado.');
     }
 }
