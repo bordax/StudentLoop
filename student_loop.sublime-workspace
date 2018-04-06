@@ -1,0 +1,374 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"num",
+				"number_of_elements"
+			],
+			[
+				"de",
+				"density"
+			],
+			[
+				"numb",
+				"number_features"
+			],
+			[
+				"ran",
+				"random_column"
+			],
+			[
+				"random",
+				"random_row"
+			],
+			[
+				"list",
+				"list_q"
+			],
+			[
+				"number",
+				"number_mutex"
+			],
+			[
+				"all",
+				"all_mutex"
+			],
+			[
+				"seed",
+				"seed_random"
+			],
+			[
+				"lis",
+				"list_q_mutex"
+			],
+			[
+				"q_mu",
+				"list_q_mutex"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": ".env",
+			"settings":
+			{
+				"buffer_size": 694,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "database/migrations/2018_04_06_021435_create_alunos_table.php",
+			"settings":
+			{
+				"buffer_size": 1150,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Aluno.php",
+			"settings":
+			{
+				"buffer_size": 251,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "ins",
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Install Package Control"
+			]
+		],
+		"width": 497.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/var/www/html/student_loop/.env.example",
+		"/var/www/html/student_loop/.gitignore",
+		"/etc/php/7.1/cli/php.ini",
+		"/var/www/html/student_loop/public/favicon.ico",
+		"/etc/phpmyadmin/config.inc.php",
+		"/var/www/html/index.html",
+		"/etc/apache2/apache2.conf",
+		"/home/berada/Desktop/vrau.php",
+		"/home/berada/Desktop/so2/src/fork/p4.c",
+		"/home/berada/Desktop/so2/src/fork/p3x.c",
+		"/home/berada/Desktop/so2/src/fork/p3.c",
+		"/home/berada/Desktop/so2/src/fork/p2.c",
+		"/home/berada/Desktop/so2/src/fork/p1.c",
+		"/home/berada/Desktop/so2/src/syscall/syscall.c",
+		"/home/berada/Desktop/so2/src/syscall/print.c",
+		"/home/berada/Desktop/so2/src/fork/ex.c",
+		"/home/berada/Insync/UFSCAR/Iniciação Científica/MaLL/CBS/FCBS Article/teste_simples.py",
+		"/home/berada/Insync/UFSCAR/Iniciação Científica/MaLL/CBS/FCBS Article/teste_auto.py",
+		"/home/berada/Insync/UFSCAR/Iniciação Científica/MaLL/CBS/FCBS Article/main_cbs.py",
+		"/home/berada/Insync/UFSCAR/Iniciação Científica/MaLL/CBS/FCBS Article/results.txt",
+		"/home/berada/Insync/UFSCAR/Iniciação Científica/MaLL/CBS/FCBS Article/generate_data.py",
+		"/home/berada/Insync/UFSCAR/Iniciação Científica/MaLL/CBS/FCBS Article/fcbs.py",
+		"/home/berada/Insync/UFSCAR/Iniciação Científica/MaLL/CBS/FCBS Article/cbs.py",
+		"/home/berada/Insync/UFSCAR/Iniciação Científica/MaLL/CBS/CBS - teste/all_data_forcbs.json",
+		"/home/berada/Insync/UFSCAR/Iniciação Científica/MaLL/CBS/arrumador.py",
+		"/home/berada/Insync/UFSCAR/Iniciação Científica/MaLL/CBS/main_cbs.py",
+		"/home/berada/Insync/UFSCAR/Iniciação Científica/MaLL/CBS/Zeno e Cia/food_forbs.json",
+		"/home/berada/Insync/UFSCAR/Iniciação Científica/MaLL/CBS/Zeno e Cia/academicfield_forbs.json",
+		"/home/berada/Insync/UFSCAR/Iniciação Científica/MaLL/CBS/old_cbs.py",
+		"/home/berada/Insync/UFSCAR/Iniciação Científica/MaLL/CBS/cbs.py",
+		"/home/berada/Insync/UFSCAR/Iniciação Científica/MaLL/CBS/city_academicfield_movie_food_joined.json",
+		"/home/berada/Insync/UFSCAR/Iniciação Científica/MaLL/CBS/Zeno e Cia/result_food.json",
+		"/home/berada/Insync/UFSCAR/Iniciação Científica/MaLL/CBS/CBS - teste/cbs_article.py",
+		"/home/berada/Insync/UFSCAR/Iniciação Científica/MaLL/CBS/Zeno e Cia/times.txt",
+		"/home/berada/Insync/UFSCAR/Iniciação Científica/MaLL/CBS/categories_mutex.json",
+		"/home/berada/Downloads/old_cbs.py",
+		"/home/berada/Downloads/[Pornbay.org]AngelaWhite.com Site Rip (As of December 21, 2013).torrent.added",
+		"/home/berada/Downloads/[Pornbay.org]ManyVids - Rileyz Secret - ANAL POV 720P.torrent.added"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"AllowNoPassword",
+			"extension=my",
+			"extension",
+			"www",
+			"<br>"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": ".env",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 694,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								256,
+								256
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "database/migrations/2018_04_06_021435_create_alunos_table.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1150,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								422,
+								422
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 233.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/Aluno.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 251,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								245,
+								245
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "student_loop.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
