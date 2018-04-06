@@ -16,7 +16,7 @@ class CreateAlunosTable extends Migration
         Schema::create('alunos', function (Blueprint $table) {
             $table->increments('id');
 
-            $table->string('nome', 100)
+            $table->string('nome', 100);
             $table->date('nasc');
             $table->integer('serie');
             
