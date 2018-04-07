@@ -113,7 +113,7 @@
 	                                <div class="form-group">
 	                                    <label for="numero_endereco" class="col-sm-3 control-label">Número</label>
 	                                    <div class="col-sm-9">
-	                                        <input type="text" class="form-control" id="numero_endereco" name="numero_endereco" placeholder="Número" value="{{numero_endereco}}"
+	                                        <input type="text" class="form-control" id="numero_endereco" name="numero_endereco" placeholder="Número" numbers-only="numbers-only" value="{{numero_endereco}}"
 	                                        ng-model="aluno.numero_endereco" ng-required="true">
 	                                    <span class="help-inline"
 	                                        ng-show="frmAlunos.numero_endereco.$invalid && frmAlunos.numero_endereco.$touched">Número é obrigatório</span>
