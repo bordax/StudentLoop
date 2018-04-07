@@ -19,20 +19,25 @@ $(document).ready(function() {
             var validacep = /^[0-9]{8}$/;
             //Valida o formato do CEP.
             if(validacep.test(cep)) {
-                //Preenche os campos com "..." enquanto consulta webservice.
-                $("#rua").val("...");
-                $("#bairro").val("...");
-                $("#cidade").val("...");
-                $("#uf").val("...");
                 //Consulta o webservice viacep.com.br/
                 $.getJSON("https://viacep.com.br/ws/"+ cep +"/json/?callback=?", function(dados) {
                     if (!("erro" in dados)) {
-                        //Atualiza os campos com os valores da consulta.
+
+                        //Atualiza os campos com os valores da consulta e ativa o evento 'change' nos elementos para que o Angular os reconheça como validos
+                        
                         $("#rua").val(dados.logradouro);
+                        angular.element(jQuery('#rua')).triggerHandler('change')
+                        
                         $("#bairro").val(dados.bairro);
+                        angular.element(jQuery('#bairro')).triggerHandler('change')
+
                         $("#cidade").val(dados.localidade);
+                        angular.element(jQuery('#cidade')).triggerHandler('change')
+                        
                         $("#estado").val(dados.uf);
-                    } //end if.
+                        angular.element(jQuery('#estado')).triggerHandler('change')
+                        
+                    }
                     else {
                         //CEP pesquisado não foi encontrado.
                         limpa_formulário_cep();
