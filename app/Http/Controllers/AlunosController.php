@@ -47,7 +47,7 @@ class AlunosController extends Controller
 		return Aluno::find($id);    	
     }
 
-    public function update(Resquest $req, $id){
+    public function update(Request $req, $id){
     	$aluno = Aluno::find($id);
 
     	$post->nome = $req->input('nome');
