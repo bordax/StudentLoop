@@ -11,7 +11,9 @@
 |
 */
 
-Route::get('/', 'AlunosController@all');
+Route::get('/', function () {
+    return view('index');
+});
 
 Route::get('/api/v1/alunos/{id?}', 'AlunosController@index');
 Route::post('/api/v1/alunos', 'AlunosController@store');
