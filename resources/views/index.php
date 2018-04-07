@@ -85,7 +85,7 @@
 	                                <div class="form-group">
 	                                    <label for="data_nasc" class="col-sm-3 control-label">Data de Nascimento</label>
 	                                    <div class="col-sm-9">
-	                                        <input type="date" class="form-control" id="data_nasc" name="data_nasc" placeholder="Data de Nascimento" value="{{data_nasc}}"
+	                                        <input type="date" class="form-control" id="data_nasc" name="data_nasc" placeholder="Data de Nascimento" min="2000-01-01"value="{{data_nasc}}"
 	                                        ng-model="aluno.nasc" ng-required="true">
 	                                    </div>
 	                                </div>
@@ -197,7 +197,7 @@
 	                                <div class="form-group">
 	                                    <label for="cpf" class="col-sm-3 control-label">CPF</label>
 	                                    <div class="col-sm-9">
-	                                        <input type="text" class="form-control" id="cpf" name="cpf" placeholder="CPF" value="{{cpf}}" maxlength="100"
+	                                        <input type="text" class="form-control" id="cpf" name="cpf" placeholder="CPF" ng-cpf value="{{cpf}}" maxlength="11"
 	                                        ng-model="aluno.cpf" ng-required="true">
 	                                        <span class="help-inline" ng-show="frmAlunos.cpf.$invalid && frmAlunos.cpf.$touched">CPF é obrigatório.</span>
 	                                    </div>
@@ -259,7 +259,8 @@
 	        <script src="<?= asset('app/controllers/alunos.js') ?>"></script>
 	        <!-- Utilidades para validação de CPF e CEP -->
 			<script src="<?= asset('js/autocep.js') ?>"></script>
-			<script src="<?= asset('js/validacpf.js') ?>"></script>
+			<script src="<?= asset('js/bower_components/cpf_cnpj/build/cpf.js') ?>"></script>
+			<script src="<?= asset('js/bower_components/ng-cpf-cnpj/lib/ngCpfCnpj.js') ?>"></script>
 
 	    </body>
 	</html>
