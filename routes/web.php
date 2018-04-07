@@ -11,6 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'AlunosController@all');
+
+Route::get('/api/v1/alunos/{id?}', 'AlunosController@index');
+Route::post('/api/v1/alunos', 'AlunosController@store');
+Route::post('/api/v1/alunos/{id}', 'AlunosController@update');
+Route::delete('/api/v1/alunos/{id}', 'AlunosController@destroy');
