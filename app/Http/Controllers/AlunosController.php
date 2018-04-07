@@ -48,27 +48,27 @@ class AlunosController extends Controller
     }
 
     public function update(Request $req, $id){
-    	$post = Aluno::find($id);
+    	$aluno = Aluno::find($id);
 
-    	$post->nome = $req->input('nome');
-        $post->nasc = $req->input('nasc');
-        $post->serie = $req->input('serie');
+    	$aluno->nome = $req->input('nome');
+        $aluno->nasc = $req->input('nasc');
+        $aluno->serie = $req->input('serie');
 
-        $post->cep = $req->input('cep');
-        $post->rua = $req->input('rua');
-        $post->numero_endereco = $req->input('numero_endereco');
-        $post->complemento = $req->input('complemento');
-        $post->bairro = $req->input('bairro');
-        $post->cidade = $req->input('cidade');
-        $post->estado = $req->input('estado');
+        $aluno->cep = $req->input('cep');
+        $aluno->rua = $req->input('rua');
+        $aluno->numero_endereco = $req->input('numero_endereco');
+        $aluno->complemento = $req->input('complemento');
+        $aluno->bairro = $req->input('bairro');
+        $aluno->cidade = $req->input('cidade');
+        $aluno->estado = $req->input('estado');
 
-        $post->nome_mae = $req->input('nome_mae');
-        $post->cpf = $req->input('cpf');
-        $post->venc = $req->input('venc');
+        $aluno->nome_mae = $req->input('nome_mae');
+        $aluno->cpf = $req->input('cpf');
+        $aluno->venc = $req->input('venc');
 
-        $post->save();
+        $aluno->save();
 
-        return 'Aluno com id '.$post->id.' editado.';
+        return 'Aluno com id '.$aluno->id.' editado.';
     }
 
     public function destroy(Request $req, $id){
