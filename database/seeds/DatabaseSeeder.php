@@ -11,7 +11,7 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-    	Eloquent::unguard();
+    	Eloquent::unguard(); //desliga proteção contra mass assignment
         $this->call('AlunosSeeder');
         $this->command->info('Banco de dados populado.');
     }
