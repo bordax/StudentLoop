@@ -48,7 +48,7 @@ class AlunosController extends Controller
     }
 
     public function update(Request $req, $id){
-    	$aluno = Aluno::find($id);
+    	$post = Aluno::find($id);
 
     	$post->nome = $req->input('nome');
         $post->nasc = $req->input('nasc');
@@ -68,7 +68,7 @@ class AlunosController extends Controller
 
         $post->save();
 
-        return 'Aluno com id '.$aluno->id.' editado.';
+        return 'Aluno com id '.$post->id.' editado.';
     }
 
     public function destroy(Request $req, $id){
