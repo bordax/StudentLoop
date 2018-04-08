@@ -23,7 +23,7 @@
 	                            <th>Endereço</th>
 	                            <th>Dados da mãe</th>
 	                            <th>Dia do Vencimento</th>
-	                            <th><button id="btn-add" class="btn btn-primary btn-xs" ng-click="toggle('add', 0)">Adicionar novo aluno</button></th>
+	                            <th><button id="btn-add" class="btn btn-primary btn-md" ng-click="toggle('add', 0)"><span class="glyphicon glyphicon-plus"></span> Adicionar novo aluno</button></th>
 	                        </tr>
 	                    </thead>
 	                    <tbody>
@@ -36,8 +36,10 @@
 	                            <td>{{ aluno.nome_mae }}<br>{{ aluno.cpf }}<br></td>
 	                            <td>{{ aluno.venc}}</td>
 	                            <td>
-	                                <button class="btn btn-default btn-xs btn-detail" ng-click="toggle('edit', aluno.id)">Editar</button>
-	                                <button class="btn btn-danger btn-xs btn-delete" ng-click="confirmDelete(aluno.id)">Excluir</button>
+	                                <div class = "btn-group" >
+	                                	<button class="btn btn-default btn-md btn-detail" ng-click="toggle('edit', aluno.id)"><span class="glyphicon glyphicon-edit"></span> Editar</button>
+	                               		<button class="btn btn-danger btn-md btn-delete" ng-click="confirmDelete(aluno.id)"><span class="glyphicon glyphicon-trash"></span> Excluir</button>
+	                               	</div>
 	                            </td>
 	                        </tr>
 	                    </tbody>
@@ -242,7 +244,7 @@
 	                            </form>
 	                        </div>
 	                        <div class="modal-footer">
-	                            <button type="button" class="btn btn-primary" id="btn-save" ng-click="save(modalstate, id)" ng-disabled="frmAlunos.$invalid">Salvar alterações</button>
+	                            <button type="button" class="btn btn-primary" id="btn-save" ng-click="save(modalstate, id)" ng-disabled="frmAlunos.$invalid"><span class="glyphicon glyphicon-ok"></span> Salvar alterações</button>
 	                        </div>
 	                    </div>
 	                </div>
