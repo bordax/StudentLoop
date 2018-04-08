@@ -13,6 +13,21 @@ app.controller('alunosController', function($filter, $scope, $http, API_URL) {
 
         switch (modalstate) {
             case 'add':
+                //Limpa os campos
+                $('#nome').val('');
+                $('#serie').val('');
+                $('#data_nasc').val('');
+                $('#rua').val('');
+                $('#bairro').val('');
+                $('#complemento').val('');
+                $('#cep').val('');
+                $('#numero_endereco').val('');
+                $('#cidade').val('');
+                $('#estado').val('');
+                $('#cpf').val('');
+                $('#nome_mae').val('');
+                $('#venc').val('');
+
                 $scope.form_title = "Adicionar novo aluno";
                 break;
             case 'edit':
