@@ -32,7 +32,7 @@
 	                            <td>{{ aluno.nome }}</td>
 	                            <td>{{ aluno.nasc }}</td>
 	                            <td>{{ aluno.serie }}º ano</td>
-	                            <td>{{ aluno.rua }}, {{ aluno.numero_endereco }}<br>{{aluno.bairro}}<br ng-if='aluno.complemento'>{{ aluno.complemento }}<br>{{ aluno.cidade }}-{{ aluno.estado }}<br>{{ aluno.cep }}</td>
+	                            <td>{{ aluno.rua }}, {{ aluno.numero_endereco }}<br>{{aluno.bairro}}<br ng-if='aluno.complemento'>{{ aluno.complemento }}<br>{{ aluno.cidade }} - {{ aluno.estado }}<br>{{ aluno.cep }}</td>
 	                            <td>{{ aluno.nome_mae }}<br>{{ aluno.cpf }}<br></td>
 	                            <td>{{ aluno.venc}}</td>
 	                            <td>
@@ -199,7 +199,7 @@
 	                                    <div class="col-sm-9">
 	                                        <input type="text" class="form-control" id="cpf" name="cpf" placeholder="CPF" ng-cpf value="{{cpf}}" maxlength="11"
 	                                        ng-model="aluno.cpf" ng-required="true">
-	                                        <span class="help-inline" ng-show="frmAlunos.cpf.$invalid && frmAlunos.cpf.$touched">CPF é obrigatório.</span>
+	                                        <span class="help-inline" ng-show="frmAlunos.cpf.$invalid && frmAlunos.cpf.$touched">Preencha um CPF válido.</span>
 	                                    </div>
 	                                </div>
 
