@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Aluno;
 use Illuminate\Http\Request;
-use App\Http\Requests;
+use App\Http\Requests\AlunoRequest;
 use App\Http\Controllers\Controller;
 
 class AlunosController extends Controller
@@ -19,7 +19,7 @@ class AlunosController extends Controller
     	}
     }
 
-    public function store(Request $req){
+    public function store(AlunoRequest $req){
     	$post = new Aluno;
     	
     	$post->nome = $req->input('nome');
@@ -47,7 +47,7 @@ class AlunosController extends Controller
 		return Aluno::find($id);    	
     }
 
-    public function update(Request $req, $id){
+    public function update(AlunoRequest $req, $id){
     	$aluno = Aluno::find($id);
 
     	$aluno->nome = $req->input('nome');
